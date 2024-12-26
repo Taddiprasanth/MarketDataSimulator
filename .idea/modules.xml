@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DataConsumer/.idea/DataConsumer.iml" filepath="$PROJECT_DIR$/../DataConsumer/.idea/DataConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DataReader/.idea/DataReader.iml" filepath="$PROJECT_DIR$/../DataReader/.idea/DataReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MarketDataSimulator.iml" filepath="$PROJECT_DIR$/.idea/MarketDataSimulator.iml" />
+    </modules>
+  </component>
+</project>
