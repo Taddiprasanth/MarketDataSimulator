@@ -13,7 +13,7 @@ def send_data():
     try:
         data = request.get_json()
         print(f"Received data: {data}")  # Debug: Print received data
-        kafka_producer.send('track_orders', value=data)
+        kafka_producer.send('market_data', value=data)
         kafka_producer.flush()
         return jsonify({"message": "Data sent to Kafka"}), 200
     except Exception as e:
@@ -21,4 +21,4 @@ def send_data():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(port=5000,debug=True)
+    app.run(port=5001,debug=True)
