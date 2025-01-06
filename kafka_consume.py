@@ -24,6 +24,6 @@ def consume_messages(topic):
         logger.info(f"Received message: {message.value}")
 
 if __name__ == "__main__":
-    topic = 'market_data'
+    topic = 'track_orders'
     consume_messages(topic)
 #kafka_consumer.py

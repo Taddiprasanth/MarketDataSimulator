@@ -17,6 +17,6 @@ def send_to_kafka(topic, data):
         logger.error(f"Failed to send message: {str(e)}")
 
 if __name__ == "__main__":
-    topic = 'market_data'
+    topic = 'track_orders'
     data = {'key': 'testKey', 'value': 'testValue'}  # Replace with your actual data
     send_to_kafka(topic, data)
