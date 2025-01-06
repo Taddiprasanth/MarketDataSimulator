@@ -18,5 +18,5 @@ def send_to_kafka(topic, data):
 
 if __name__ == "__main__":
     topic = 'track_orders'
-    data = {'key': 'testKey', 'value': 'testValue'}  # Replace with your actual data
+    data = {'key': 'testKey', 'value': 'testValue'}
     send_to_kafka(topic, data)

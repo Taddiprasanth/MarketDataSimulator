@@ -26,4 +26,3 @@ def consume_messages(topic):
 if __name__ == "__main__":
     topic = 'track_orders'
     consume_messages(topic)
-#kafka_consumer.py
